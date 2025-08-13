@@ -1,4 +1,11 @@
 # emo_rec
+
+
+<p align="center">
+  <!-- Place your logo image in the images/ folder and update the filename below -->
+  <img src="images/logo.png" alt="emo_rec Logo" width="200"/>
+</p>
+
 fun project to make a demo for the Long-night-of Science 
 in the development stage
 
