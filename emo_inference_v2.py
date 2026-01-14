@@ -16,7 +16,16 @@ from selenium.webdriver.common.keys import Keys
 
 # ===== Configuration =====
 # Path to emotion samples
-SAMPLES_DIR = "/home/andrei/Work/emotion_recognition/emotion_samples"
+# Get the absolute path to the directory this file is in
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Join it with your folder name
+SAMPLES_DIR = os.path.join(BASE_DIR, "emotion_samples")
+
+print(SAMPLES_DIR)
+
+
+#SAMPLES_DIR = "/home/andrei/Work/emotion_recognition/emotion_samples"
 
 # Emotion detection settings
 DETECTION_INTERVAL = 3  # seconds
@@ -216,7 +225,7 @@ def blend_emotions(emotions, weights):
 # ===== Main Program =====
 #configuration settings
 WINDOW_NAME = 'Emotion-Based Music Generation'
-WINDOW_WIDTH = 1920  # Larger window width
+WINDOW_WIDTH = 1920  # Larger window widthpwd
 WINDOW_HEIGHT = 1280  # Larger window height
 BLINK_DURATION = 0.5  # seconds to show the detection indicator
 DETECTION_COLOR = (0, 0, 255)  # Red color for detection indicator

@@ -48,13 +48,13 @@ backends = [
 # Function to play sound based on emotion with crossfade
 def play_emotion_sound(emotion):
     sound_files = {
-        'neutral': 'do.wav',
-        'sad': 're.wav',
-        'happy': 'mi.wav',
-        'angry': 'fa.wav',
-        'fear': 'sol.wav',
-        'surprise': 'la.wav',
-        'disgust': 'ti.wav'
+        'neutral': 'notes/do.wav',
+        'sad': 'notes/re.wav',
+        'happy': 'notes/mi.wav',
+        'angry': 'notes/fa.wav',
+        'fear': 'notes/sol.wav',
+        'surprise': 'notes/la.wav',
+        'disgust': 'notes/si.wav'
     }
     if emotion in sound_files:
         sound_file = sound_files[emotion]
