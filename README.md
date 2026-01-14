@@ -60,7 +60,7 @@ These emotions act as a live conductor for MIDI-based AI music generated via Goo
 
   - `python emo_inference_v1.py`  - 1.0 version with a  monophonic music samples
 
-  - `python emo_inference_v2.py.py`  - 2.0 version with AI-generated (via [Magneta](https://github.com/magenta/magenta)) MIDI samples and improved performance (multiple faces support)
+  - `python emo_inference_v2.py`  - 2.0 version with AI-generated (via [Magneta](https://github.com/magenta/magenta)) MIDI samples and improved performance (multiple faces support)
 
 **You should see:**
 
