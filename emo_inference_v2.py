@@ -233,9 +233,7 @@ NORMAL_COLOR = (0, 255, 0)  # Green color for normal state
 
 def main():
     # Initialize browser for visualization (optional)
-    geckodriver_path = "/snap/bin/geckodriver"
-    driver_service = webdriver.FirefoxService(executable_path=geckodriver_path)
-    driver = webdriver.Firefox(service=driver_service)
+    driver = webdriver.Firefox()
     driver.get("http://127.0.0.1:9966/")
     seed_input = driver.find_element(By.CSS_SELECTOR, "input[type='text']")
     
