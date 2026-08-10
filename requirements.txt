@@ -1,4 +1,4 @@
-opencv-python
+opencv-python<=5.0
 deepface
 tf_keras
 pygame

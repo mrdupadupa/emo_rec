@@ -39,6 +39,8 @@ These emotions act as a live conductor for MIDI-based AI music generated via Goo
 
 `cd space-3d/src`
 
+`npm install`
+
 `npm start`
 
 ### face detection part: 
